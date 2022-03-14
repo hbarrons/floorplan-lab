@@ -6,10 +6,15 @@ import Bath from "./Bath";
 const Floorplan = (props) => {
   return ( 
     <>
-      <h3> <Bedroom /> </h3>
-      <h3> <Kitchen/> </h3>
-      <h3> <LivingRoom/> </h3>
-      <h3> <Bath/> </h3>
+      <h3>
+        <Kitchen/>
+        <LivingRoom/> 
+        <Bedroom bedNum={1}/>
+        <Bedroom bedNum={2}/>
+        <Bedroom bedNum={3}/>
+        <Bath size={"Full Bath"}/>
+        <Bath size={"Half Bath"}/>
+      </h3>
     </>
    );
 }

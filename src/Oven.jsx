@@ -1,7 +1,7 @@
 const Oven = () => {
   return ( 
     <div>
-      <h2>Oven</h2>
+      <h3>Oven</h3>
     </div>
    );
 }
